@@ -1,0 +1,140 @@
+
+.ev3 {
+    background-color: rgb(32, 44, 69);
+    font-family: 'Sansation Light';
+    color: rgb(255, 255, 255);
+    height: auto;
+
+    
+}
+
+#ev3-det {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#det-txt {
+    padding: 20px;
+    width:80%;
+    height:auto;    
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.07);
+    border: solid rgb(255, 255, 255, 0.5) 1px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+#det-txt a{
+    text-decoration: underline;
+}
+
+#det-txt a:hover{
+    color: rgb(255, 0, 0);
+}
+
+#det-txt p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#det-img {
+    height: 500px;
+    position:relative;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/omeryanar-1b0a4.appspot.com/o/project-images%2Fev3.png?alt=media&token=d2e8a823-1302-4cd8-b664-f60833a9af70");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.6;
+    width:100vw;
+}
+
+
+#path-title, #fc-title, #fd-title{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#det-path, #further-det{
+    width:auto;
+    position: static;
+}
+
+#det-path1{
+    width: 40vw;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% auto ;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/omeryanar-1b0a4.appspot.com/o/project-details%2Fev3%2Fpath-1.png?alt=media&token=2a11a4cf-32c1-4879-b0b7-a580172152d7");
+}
+
+#det-path2{
+    width: 40vw;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:85% auto ;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/omeryanar-1b0a4.appspot.com/o/project-details%2Fev3%2Fpath-2.png?alt=media&token=4d0719bc-32b8-4bed-93a2-bdd2793e8682");
+}
+
+#fd-ss, #fd-lm {
+    width: 40vw;
+    height:50vh;
+    padding: 20px;
+    width:80%;
+    height:auto;    
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.07);
+    border: solid rgb(255, 255, 255, 0.5) 1px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+#fd-ss p, #fd-lm p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#flow-chart {
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    position:static;
+    width: 40vw;
+    height:48vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% auto ;
+
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/omeryanar-1b0a4.appspot.com/o/project-details%2Fev3%2Fcontrol-flow.png?alt=media&token=dfb8818a-faf9-4287-98a3-61da846fc5e2");
+    border-radius: 10px;
+}
+
+#ev3-title{
+	text-align:center;
+	font-size:25px;
+    font-weight: 700;
+	color:rgb(255, 255, 255);
+	position:relative;
+}
+
+#ev3-title::after{
+	content: "";
+	text-align:center;
+	font-size:20px;
+	background:#3b5998;
+	position:absolute;
+	
+	bottom: -1px;
+	left: 42.4%;
+	height: 3px;
+	width: 15%;
+	
+}
